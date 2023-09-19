@@ -53,7 +53,11 @@ npm install pm2 -g
 
 pm2 start TwitterBackend/build/index.js
 pm2 status
+pm2 ls # то саме що pm2 status
 pm2 monit
+pm2 restart index # склонували, збілдали, рестартнули pm2
 
-
-http://ec2-13-51-85-156.eu-north-1.compute.amazonaws.com:3000/
+# http://ec2-13-51-85-156.eu-north-1.compute.amazonaws.com:3000/
+# DB instance - twitter
+# DB username - postgres
+# DB password - 1q2w3e4r
